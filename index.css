@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Normal size desktop */
+
+/* body custom */
+
+body {
+    padding: 10px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 63, 63);
+    text-align: center;
+}
+
+/* header tag  */
+
+h1 {
+    font-size: 8rem;
+    margin-top: 6%;
+    margin-bottom: 8px;
+    font-family: 'Sacramento', cursive;
+}
+
+/* header hover */
+
+h1:hover {
+    color:rgb(175, 224, 180);
+}
+
+/* header4 tag */
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* footer heart icon */
+
+#heart{
+    color:rgb(35, 235, 68);
+}
+
+/* input1 , input2 tag */
+
+#input1, #input2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 32px;
+    border-radius: 14px;
+    border: solid 2px rgb(0, 0, 0);
+    margin: 5px 20px;
+    background-color: ghostwhite;
+    text-align: center;
+}
+
+/* input1 , input2 tag hover */
+
+#input1:hover, #input2:hover  {
+    width: 250px;
+    background: transparent;
+    color: white;
+    border: solid 2px whitesmoke;
+}
+
+/* Reset and calculate button custom */
+
+#Reset, .btn {
+    
+    margin-bottom: 5px;
+    height: 30px;
+    width: 150px;
+    padding-bottom: 15px;
+    background: #1fa2d1;
+    background-image: linear-gradient(to bottom, #1fa2d1, #00ffcc);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    text-shadow: 1px 1px 3px #666666;
+    -webkit-box-shadow: 0 1px 3px #666666;
+    -moz-box-shadow: 0 1px 3px #666666;
+    box-shadow: 0 2px 4px #666666;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 19px;
+    border: solid #b2d6ec 2px;
+    text-decoration: none;
+}
+
+/* Reset and calculate button hover */
+
+#Reset:hover , .btn:hover {
+    background: #ff0000;
+    background-image: linear-gradient(to bottom, #ff0000, #ff0000);
+    text-decoration: none;
+}
+
+/* btn margin */
+
+.btn{
+    margin-top: 15px;  
+    margin-bottom: 10px;
+}
+
+/* footer margin */
+#footer{
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+/* tablet size responsive */
+
+@media screen and (max-width: 900px) {
+
+    /* header margin and font size */
+
+    h1 {
+        margin-top: 8%;
+        font-size: 7rem;
+    }
+
+    /* footer margin */
+
+    #footer{
+        margin-top: 120px;
+        margin-bottom: 10px;     
+    }
+
+    /* header4 margin */
+
+    h4{
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    /* input1 , input2 position */
+    #input1, #input2{
+        position: static;
+    }
+
+    /* btn margin */
+    .btn{
+        margin-top: 20px; 
+        margin-bottom: 7px; 
+    }
+}
+
+    /* Mobile size Responsive */
+@media screen and (max-width: 600px) {
+
+    /* header margin and font size */
+    h1 {
+        margin-top: 20%;
+        font-size: 5rem;
+    }
+
+    /* footer margin  */
+    #footer{
+        margin-top: 280px;
+        margin-bottom: 10px;     
+    }
+
+    /* header4 margin */
+    h4{
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+    /* input1 and input2 position */
+    #input1, #input2{
+        position: static;
+    }
+
+    /* button margin */
+    .btn{
+        margin-top: 30px; 
+        margin-bottom: 10px; 
+    }
+}
+ 
